@@ -1,0 +1,22 @@
+<article class="panel panel-info">
+    <div class="panel-heading">
+        {{ message.title }}
+    </div>
+    <div class="panel-body">
+      
+           {{ message.content }}
+    </div>
+
+    <footer class="panel-footer">
+        <div class="author">
+            {{ message.username }}
+            <div class="container author">
+           {{ message.date | date:'medium' }}
+            </div>
+        </div>
+        <div class="config">
+            <a (click)="onEdit()">Edit</a>
+            <a (click)="onDelete()">Delete</a>
+        </div>
+    </footer>
+</article>
