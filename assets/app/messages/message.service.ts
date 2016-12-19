@@ -18,7 +18,7 @@ export class MessageService {
         return this.http.post('http://localhost:3000/message', body, {headers: headers})
             .map((response: Response) => {
                 const result = response.json();
-                const message = new Message(result.obj.title, result.obj.content, 'Dummy', result.obj.date, result.obj._id, null);
+                const message = new Message(result.obj.title, result.obj.content, 'Edgar', result.obj.date, result.obj._id, null);
                 this.messages.push(message);
                 return message;
             })
@@ -31,7 +31,7 @@ export class MessageService {
                 const messages = response.json().obj;
                 let transformedMessages: Message[] = [];
                 for (let message of messages) {
-                    transformedMessages.push(new Message(message.title, message.content, 'Dummy', message.date, message._id, null));
+                    transformedMessages.push(new Message(message.title, message.content, 'Edgar', message.date, message._id, null));
                 }
                 this.messages = transformedMessages;
                 return transformedMessages;
