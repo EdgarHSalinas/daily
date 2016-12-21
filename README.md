@@ -4,6 +4,9 @@
 
 
 ### Deployed at https://dailyapp.herokuapp.com/
+### Signup, then Login daily to write your daily activies.
+
+#### To modify for yourself see below.
 
 #### 1) Navigate into the folder (in the command line/ terminal)
 #### 2) Run "npm install" to install all required dependencies
