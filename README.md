@@ -3,7 +3,7 @@
 ## Forked Angular 2 seed with webpack
 
 
-### Deployed at https://dayjournal.herokuapp.com/
+### Deployed at https://dailyapp.herokuapp.com/
 
 #### 1) Navigate into the folder (in the command line/ terminal)
 #### 2) Run "npm install" to install all required dependencies
