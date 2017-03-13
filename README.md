@@ -4,7 +4,7 @@
 
 
 ### Deployed at https://dailyapp.herokuapp.com/
-### Signup, then Login daily to write your daily activies.
+### Signup, then Login daily to write your daily activities.
 
 #### To modify for yourself see below.
 
